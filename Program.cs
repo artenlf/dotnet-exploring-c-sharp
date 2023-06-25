@@ -1,14 +1,8 @@
 ﻿using DotNetExploringCSharp.Models;
 
-Person person1 = new Person();
+Person person1 = new Person(name: "John", lastname: "Doe");
 
-person1.Name = "John";
-person1.LastName = "Doe";
-
-Person person2 = new Person();
-
-person2.Name = "Mary";
-person2.LastName = "Cosby";
+Person person2 = new Person(name: "Mary", lastname: "Cosby");
 
 Course dotnetCourse = new Course();
 dotnetCourse.Name = "DotNet Course";
